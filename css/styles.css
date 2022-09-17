@@ -15,17 +15,7 @@
 /* колір лого #000000  
  */
 
-:root {
- --primary-text-color: #212121;
- --secondary-text-color: #757575;
- --accent-color: #2196F3;
- --logo-color: #000000;
- --hero-title-color: #FFFFFF;
- --background-dark-color: #2F303A;
- --background-cloudy-color: #F5F4FA;
- --contacts-color: rgba(255, 255, 255, 0.6);
 
-}
 
 h1,
 h2,
@@ -158,12 +148,12 @@ img {
 
 }
 
-.envelope {
+.contacts-mail__envelope {
     
     margin-right: 10px;
 }
 
-.smartphone {
+.contacts-phone__smartphone {
     margin-right: 10px;
 }
 .contacts .link {
@@ -208,7 +198,7 @@ img {
      url('../images/hero.jpg');
     background-size: cover;
 }
-.hero-title {
+.hero__title {
     margin-bottom: 30px;
     margin-left: auto;
     margin-right: auto;
