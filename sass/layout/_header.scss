@@ -15,8 +15,9 @@
     display: flex;
     align-items: center;
     column-gap: 50px;
+}
 
-    & .link {
+.menu-nav__link {
         display: block;
         padding-top: 32px;
         padding-bottom: 32px;
@@ -29,15 +30,15 @@
 
         transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         position: relative;
-    }
+}
 
-    & .link:hover,
-    & .link:focus {
+.menu-nav__link:hover,
+.menu-nav__link:focus {
         color: var(--accent-color)
     }
 
 
-}
+
 
 
 
@@ -45,7 +46,7 @@
     color: var(--accent-color);
 }
 
-.menu-nav .current::after {
+.menu-nav_current::after {
     position: absolute;
     left: 0;
     bottom: -1px;
